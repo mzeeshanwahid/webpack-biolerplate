@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 100vh;
+    height: 50vh;
+    margin: auto !important;
+    background: lightblue;
+}
+
+.text{
+    text-align: center;
+    padding-top: 10vh;
+}
+
+p{
+    width: 80vh;
+    margin: auto !important;
+    text-align: center;
+    font-size: large;
+}

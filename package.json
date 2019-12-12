@@ -1,0 +1,24 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple application to look how webpack works!",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --entry ./src/index.js --output-filename ./dist/bundle.js"
+  },
+  "keywords": [
+    "webpack",
+    "boilerplate"
+  ],
+  "author": "Muhammad Zeeshan",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
